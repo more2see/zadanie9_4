@@ -1,11 +1,10 @@
-var treeHeight;
 function drawTree (treeHeight) {
 	for ( i = 0 ; i < treeHeight ; i++) {
-	  var star = '';
-	  for ( j = 0 ; j < (treeHeight && i) ; j++) {
-		star += '*';
-	  }
-	  console.log(star);
+		var star = '';
+		for ( j = 0 ; j <= i ; j++) {
+			star += '*';
+		}
+		console.log(star);
 	}
 }
 drawTree(8);
