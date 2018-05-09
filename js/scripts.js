@@ -1,14 +1,13 @@
-function drawTree (treeHeight) {
-	for ( i = 0 ; i < treeHeight ; i++) {
+function drawTree(treeHeight) {
+	for (var i = 0; i < treeHeight; i++) {
 		var star = '';
-		for ( j = 0 ; j <= i ; j++) {
+		for (var j = 0; j <= i; j++) {
 			star += '*';
 		}
 		console.log(star);
 	}
 }
 drawTree(8);
-
 /*
 2) gdy i == j to break czyli przerwij pętlę. Do tego jest przeznaczone właśnie drugie miejsce w forze. Postaraj się zatem przerobić nieco drugą pętlę.
 */
